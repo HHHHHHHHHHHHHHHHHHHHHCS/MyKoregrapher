@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Name: XBLQ_Track
   m_EditorClassIdentifier: 
   mEventID: 
-  mEventList: []
+  mEventList:
+  - mStartSample: 88200
+    mEndSample: 88200
+  - mStartSample: 176400
+    mEndSample: 176400
   _SerializedPayloadTypes: []
   _ColorPayloads: []
   _ColorPayloadIdxs: 
