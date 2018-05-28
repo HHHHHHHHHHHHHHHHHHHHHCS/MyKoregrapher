@@ -21,7 +21,6 @@ public class CubeTest01 : MonoBehaviour
         if(koreoEvent.HasCurvePayload())
         {
             float curveValue = koreoEvent.GetValueOfCurveAtTime(sampleDelta);
-            Debug.Log(curveValue);
             transform.localScale = Vector3.one * Mathf.Lerp(minScale, maxScale, curveValue);
         }
     }
