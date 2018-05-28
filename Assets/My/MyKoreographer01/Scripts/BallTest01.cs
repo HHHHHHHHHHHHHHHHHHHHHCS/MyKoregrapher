@@ -5,9 +5,10 @@ using SonicBloom.Koreo;
 
 public class BallTest01 : MonoBehaviour
 {
-    private Rigidbody rigi;
     public string eventID;
     public float jumpSpeed;
+
+    private Rigidbody rigi;
 
     private void Awake()
     {
